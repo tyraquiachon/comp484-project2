@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Raleway:wght@300;400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Raleway', helvetica, arial, sans-serif;
+    margin: 25px;
+    background-color: #fdf6f0;
+    color: #3b2a4a;
+  }
+  
+  main {
+    display:block;
+    height:auto;
+    overflow: hidden;
+  }
+  
+  header {
+    border-bottom: 1px solid #c084fc;
+  }
+  
+  h1 {
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    color: #7e22ce;
+    text-align: center;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  p {
+    max-width: 600px;
+  }
+  
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  footer {
+    padding-top: 25px;
+    border-top: 1px solid #e9d5ff;
+  }
+  
+  footer a {
+    float:left;
+    margin:5px;
+  }
+  
+  .pet-image {
+    height:250px;
+    transition: filter 0.5s ease;
+    position: relative;
+    box-shadow: 0 8px 25px rgba(192, 132, 252, 0.35);
+    border-radius: 16px;
+  }
+
+  .pet-image.sad {
+    filter: grayscale(80%) brightness(0.85);
+  }
+  
+  .dashboard div {
+    display:block;
+  }
+
+  .dashboard div strong {
+    color: #9333ea;
+  }
+  
+  .pet-image-container {
+    padding:10px;
+    text-align:center;
+  }
+  
+  .dashboard {
+    padding:20px;
+    text-align:center;
+    border-radius: 20px;
+  }
+  
+  .button-container {
+    margin-top:20px;
+  }
+  
+  .button-container button {
+    width: 100px;
+      margin-right: 10px;
+      text-align: center;
+      display: inline-block;
+    font-size:15px;
+    background-color: #c084fc;
+    border-color: #a855f7;
+    cursor:pointer;
+    background-image: linear-gradient(to bottom,rgba(246,246,246,.1)0%,rgba(192,132,252,0)66%);
+    color: #fafafa;
+  }
+
+  .notification {
+    display: none;
+    width: fit-content;
+    margin: 10px auto;
+    padding: 8px 14px;
+    background: linear-gradient(135deg, #f3e8ff, #fce4ec);
+    border-left: 3px solid #c084fc;
+    border-radius: 8px;
+    font-size: 0.88rem;
+    color: #6b21a8;
+    font-style: italic;
+    font-weight: 500;
+  }
