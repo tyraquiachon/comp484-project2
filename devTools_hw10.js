@@ -25,7 +25,7 @@ console.groupEnd();
 
 // log custom
 console.log(
-  "%c✨ Welcome to Espeon's Giga Pet! ✨",
+  "%c✨ Giga Pet Espeon ✨",
   "color: #9b59b6; font-size: 16px; font-weight: bold; background: #f3e5f5; padding: 6px 12px; border-radius: 6px;"
 );
 
